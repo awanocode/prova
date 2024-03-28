@@ -1,0 +1,25 @@
+body {
+  background-color: #f5f5f5;
+  border: 1px solid #000000;
+  margin: 2em;
+}
+text {
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.linha {
+  display: inline-flexbox;
+  border: #000 dashed 1px;
+}
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+a {
+  align-content: center;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  font-size: 35px;
+}
