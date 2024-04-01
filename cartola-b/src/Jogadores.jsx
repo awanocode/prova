@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom'
 import Header from './Header'
 import './Home.css'
 
-function Detalhes() {
+function Jogadores() {
   const { id, nome } = useParams()
   const [times, setTimes] = useState(null)
   const [isLoading, setIsLoading] = useState(true)
@@ -65,4 +65,4 @@ function Detalhes() {
   )
 }
 
-export default Detalhes
+export default Jogadores

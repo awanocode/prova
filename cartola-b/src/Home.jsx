@@ -53,8 +53,8 @@ function Home() {
                   : ''
               }
             />
-            <Link to={`detalhes/${item.nome}/${item.id}`}>
-              <div className='times-nome'>
+            <Link to={`jogadores/${item.nome}/${item.id}`}>
+              <div className='escudo'>
                 <h1>{item.nome}</h1>
                 <h2>{item.apelido}</h2>
               </div>
