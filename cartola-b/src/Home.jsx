@@ -29,7 +29,7 @@ function Home() {
 
           setTimes(sortedTimes)
         } else {
-          console.error('ERRO!')
+          console.error('ERROR!')
         }
       } catch (error) {
         console.error('Error fetching data:', error)
