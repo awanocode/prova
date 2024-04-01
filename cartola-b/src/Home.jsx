@@ -44,7 +44,7 @@ function Home() {
       <Header />
       <div className='container'>
         {times.map((item) => (
-          <div className='flex time-foto ' key={item.id}>
+          <div className='flex escudo-foto ' key={item.id}>
             <img
               src={
                 item.escudos['60x60'] !==
