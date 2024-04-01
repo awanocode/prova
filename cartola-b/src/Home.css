@@ -1,0 +1,32 @@
+.times-nome {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.time-foto {
+  margin-top: 20px;
+}
+
+.container {
+  background-color: #fff;
+  padding-top: 3%;
+  padding-left: 3%;
+}
+a {
+  text-decoration: none;
+}
+.jogador {
+  width: 110px;
+  height: 110px;
+}
+
+h3 {
+  font-size: 32px;
+}
+.flex:hover {
+  box-shadow: 0 0 2px 1px rgba(197, 197, 197, 0.5);
+  color: #727272;
+  border-radius: 15px;
+}
