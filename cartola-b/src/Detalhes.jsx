@@ -14,7 +14,7 @@ function Detalhes() {
     fetch(`https://api.cartola.globo.com/atletas/mercado/${id}`)
       .then((response) => {
         if (!response.ok) {
-          throw new Error('Erro ao carregar os dados')
+          throw new Error('ERRO!')
         }
         return response.json()
       })
